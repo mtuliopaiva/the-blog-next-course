@@ -1,5 +1,13 @@
+//client component
+import { Header } from "@/components/Header";
+
 export default function HomePage() {
-  return <h1>Olá de dentro de page.tsx</h1>;
+  console.log("Server -> HomePage rendered");
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 // Rota -> app/page.tsx -> /
